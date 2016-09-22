@@ -1,0 +1,29 @@
+*{
+	margin:15px;
+}
+.bubble{
+    background-color: #5ac4ec;
+    border-radius: 12px;
+    display: inline-block;
+    width:140px;
+	height:100px;
+    position: relative;
+}
+
+.bubble:before {
+    background-color: #5ac4ec;
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    transform: rotate(27deg) skew(-35deg);
+	-moz-transform: rotate(27deg) skew(-35deg);
+	-webkit-transform: rotate(27deg) skew(-35deg);
+	-ms-transform: rotate(27deg) skew(-35deg);
+    width: 30px;
+}
+
+.arrow:before {
+    left: -12px;           
+}
